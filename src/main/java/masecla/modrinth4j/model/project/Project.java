@@ -89,7 +89,7 @@ public class Project {
      * @deprecated This field is deprecated in favor of {@link #threadId}
      */
     @Deprecated
-    private String moderatorMessage;
+    private ProjectModeratorMessage moderatorMessage;
 
     /** Date published. */
     private Instant published;
